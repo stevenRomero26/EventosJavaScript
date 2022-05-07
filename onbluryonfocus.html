@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento Grupal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<nav>
+    <ul>
+        <li class="li1"> <img  src="img/js (1).png" alt="" width="30" height="24" class="img"></li>
+        <li>
+            <a class="navbar-bran" href="#">Eventos en JavaScript</a>
+
+        </li> 
+        <li> <img  src="img/js (1).png" alt="" width="30" height="24" class="img"></li>
+    </ul></nav>
+ <div class="txt">
+    <h1 id="top">Eventos</h1>
+ </div>
+<div id=""  class="row cla ">
+    <div class="col-4  ">
+      <div class="list-group cla" id="" role="tablist">
+        <a class="list-group-item list-group-item-action " id="list-home-list" href="#ONBLURANDONFOCUS" role="tab" aria-controls="list-home">ONBLUR AND ONFOCUS</a>
+        <a class="list-group-item list-group-item-action" id="list-profile-list" href="#Onchange" role="tab" aria-controls="list-profile">Onchange</a>
+        <a class="list-group-item list-group-item-action" id="list-messages-list" href="#OnClick" role="tab" aria-controls="list-settings">OnClick</a>
+        <a class="list-group-item list-group-item-action " id="list-home-list" href="#OndblClick" role="tab" aria-controls="list-home">OndblClick</a>
+        <a class="list-group-item list-group-item-action" id="list-profile-list" href="#OnKeyDown" role="tab" aria-controls="list-profile">OnKeyDown</a>
+        <a class="list-group-item list-group-item-action" id="list-messages-list" href="#OnKeyPressOnKeyUp" role="tab" aria-controls="list-settings">OnKeyPress y OnKeyUp</a>
+        <a class="list-group-item list-group-item-action " id="list-home-list" href="#Onload" role="tab" aria-controls="list-home">Onload</a>
+        <a class="list-group-item list-group-item-action" id="list-profile-list" href="#OnMouseDown" role="tab" aria-controls="list-profile">OnMouseDown And OnMouseUp</a>
+        <a class="list-group-item list-group-item-action" id="list-messages-list" href="#onoid" role="tab" aria-controls="list-settings">OneMouseMove - OneMouseOut and OnMouseOver</a>
+        <a class="list-group-item list-group-item-action " id="list-home-list" href="#Onreset" role="tab" aria-controls="list-home">Onreset</a>
+        <a class="list-group-item list-group-item-action " id="list-home-list" href="#OnResize" role="tab" aria-controls="list-home">OnResize</a>
+        <a class="list-group-item list-group-item-action " id="list-home-list" href="#OnSelect" role="tab" aria-controls="list-home">OnSelect</a>
+        <a class="list-group-item list-group-item-action " id="list-home-list" href="#OnSubmit" role="tab" aria-controls="list-home">OnSubmit</a>
+
+        <a class="list-group-item list-group-item-action " id="list-home-list" href="#OnUnload" role="tab" aria-controls="list-home">OnUnload</a>
+
+    </div>
+    </div>
+    <div class="col-8">
+      <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show " id="list-home" role="tabpanel" aria-labelledby="list-home-list">...</div>
+        <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">...</div>
+        <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">...</div>
+        <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">...</div>
+      </div>
+    </div>
+  </div>
+  
+  <main class="container ">
+  <h1 id="ONBLURANDONFOCUS "></h1>
+    <div class="bg-light color  p-5 rounded mt-3">
+        <a class="topp" href="#top">🔝</a>
+        <h1 id=""> ONBLUR AND ONFOCUS</h1>
+        <h2>onfocus</h2>
+        <p>El evento onfocus se produce cuando un elemento se enfoca.
+ 
+         El evento onfocus se usa con mayor frecuencia con (input) (select) y (a)</p>
+    
+        <h2>OnBlur</h2>
+        <p>El evento onblur se produce cuando un objeto pierde el foco.</p>     
+        
+        <input type="text" value="nombres" id="input">
+ 
+       
+    </div>
+  </main>
+
+<!--ONBLUR AND ONFOCUS-->
+
+<!--Onchange-->
+<main class="container ">
+    <h2 id="Onchange"> </h2>
+    <div class="bg-light color  p-5 rounded mt-3">
+        <a class="topp" href="#top">🔝</a>
+        <h1 id="">Onchange</h1><p>seleccione el nombre del vehiculo deseado</p>
+           <h2>El evento onchange se produce cuando el valor de un elemento se ha cambiado.
+
+            Para botones de radio y casillas de verificación, el evento onchange ocurre cuando el estado de activación se ha cambiado.</h2>
+        <select id="Seleccion">
+            <option value="Mercezez">Mercedez</option>
+            <option value="Ferrari">Ferrari</option>
+            <option value="Bmw">Bmw</option>
+            <option value="Porsche">Porsche</option>
+            <option value="Nissan">Nissan</option>
+    
+        </select>
+        <p>Cuando selecciona un automóvil nuevo, se activa una función que genera el valor del automóvil
+            seleccionado.</p>
+        <p style="font-size: 20px;" id="example"></p>
+       
+    </div>
+  </main>
+<!--onclick-->
+
+<main class="container ">
+    <h2 id="OnClick"> </h2>
+    <div class="bg-light color  p-5 rounded mt-3">
+        <a class="topp" href="#top">🔝</a>
+        <h2 id="">OnClick</h2>
+        <p>El evento onclick activa una función cuando se hace clic en un elemento.</p>
+        <button id="demo">Dale Click al Texto para cambiarlo de color.</button>
+         
+       
+    </div>
+  </main>
+  
+   
+
+<!--OndblClick-->
+<main class="container ">
+    <a class="topp" href="#top">🔝</a>
+    <h2 id="OndblClick"> </h2>
+    <div class="bg-light color  p-5 rounded mt-3">
+        <h2 id="">OndblClick</h2>
+        <p>Haga doble clic en este párrafo para activar una función.</p>
+        <button id="boton">Dale Doble Click para cambiar de color</button>
+       
+    </div>
+  </main>
+
+<!--OnKeyDown-->
+
+
+<main class="container ">
+    <h2 id="OnKeyDown"> </h2>
+
+    <div class="bg-light color  p-5 rounded mt-3">
+        <a class="topp" href="#top">🔝</a>
+        <h2 id="">OnKeyDown</h2>
+        <p>El evento onkeydown se produce cuando el usuario presiona una tecla (en el teclado).</p>
+    
+        <input type="text" id="teclado">
+    
+    </div>
+  </main>
+
+<!--OnKeyPress-->
+<main class="container ">
+    <h2 id="OnKeyPressOnKeyUp"> </h2>
+    <div class="bg-light color  p-5 rounded mt-3">
+        <a class="topp" href="#top">🔝</a>
+        <h2 id="">OnKeyPress y OnKeyUp</h2>
+        <p>El evento onkeypress se produce cuando el usuario presiona una tecla (en el teclado)</p>
+        <p>Nota:El evento onkeypress no se activa para todas las teclas (por ejemplo, ALT, CTRL, SHIFT, ESC) en
+            todos los navegadores.
+            Para detectar solo si el usuario ha presionado una tecla, use el evento onkeydown en su lugar, ya que
+            funciona para todas las teclas.</p>
+        <input type="text" id="t">
+        <h2>OnKeyUp</h2>
+        <p>El evento onkeyup se produce cuando el usuario suelta una tecla (en el teclado).</p>
+        <input type="text" id="Up">
+    
+    </div>
+  </main>
+
+<!--onload-->
+<main class="container ">
+    <h2 id="Onload"> </h2>
+    <div class="bg-light color  p-5 rounded mt-3">
+        <a class="topp" href="#top">🔝</a>
+        <h2 id="">Onload</h2>
+        <p>El evento onload se produce cuando se ha cargado un objeto.</p>
+    
+        <img src="/img/chikinlirul.gif" id="ckikyn" alt="">
+    </div>
+  </main>
+
+<!--OnMouseDown And OnMouseUp-->
+<main class="container ">
+    <h2 id="OnMouseDown"> </h2>
+    <div class="bg-light color  p-5 rounded mt-3">
+        <a class="topp" href="#top">🔝</a>
+        <h2 id="OnMouseDown">OnMouseDown And OnMouseUp</h2>
+        <p>El evento onmousedown se produce cuando un usuario presiona un botón del mouse sobre un elemento.</p>
+        <p>El evento onmouseup se produce cuando un usuario suelta un botón del ratón sobre un elemento.</p>
+        <p id="down-up">¡Haz clic en el texto! La función mouseDown() se activa cuando se presiona el botón del
+            mouse sobre este párrafo y establece el color del texto en gris.
+            La función mouseUp() se activa cuando se suelta el botón del mouse y establece el color del texto en
+            verde.</p>
+    
+    </div>
+  </main>
+
+
+<!--OneMouseMove - OneMouseOut and OnMouseOver-->
+<main class="container ">
+    <h2 id="onoid"> </h2>
+
+    <div class="bg-light color  p-5 rounded mt-3">
+        <a class="topp" href="#top">🔝</a>
+        <h2 id="">OneMouseMove - OneMouseOut and OnMouseOver</h2>
+        <div class="div" onmousemove="myMoveFunction()">
+            <p class="">onmousemove: <br> <span id="demo">Mouse over me!</span></p>
+    
+    
+            <div class="div" onmouseenter="myEnterFunction()">
+                <p class="">onmouseout: <br> <span id="demo2">Mouse over me!</span></p>
+            </div>
+    
+            <div class="div" onmouseover="myOverFunction()">
+                <p class="">onmouseover: <br> <span id="demo3">Mouse over me!</span></p>
+            </div>
+    <p>Este ejemplo demuestra la diferencia entre onemousemove,
+        onemouseout y onemouseover.
+    </p>
+
+    <p>El evento onmousemove se produce cada vez que el puntero del mouse
+        e mueve sobre el elemento div.</p>
+
+    <p>El evento onmouseout se produce cuando el puntero del mouse se mueve fuera del elemento div
+        y cuando deja sus elementos secundarios (p y span).</p>
+
+    <p>El evento onmouseover se produce cuando el puntero del mouse entra en el elemento div
+        y sus elementos secundarios (p y span).</p>
+    </div>
+   
+
+  </main>
+
+
+
+
+    
+  
+    <!--Onreset-->
+    <main class="container ">
+        <h1 id="Onreset"></h1>
+          <div class="bg-light color  p-5 rounded mt-3">
+            <a class="topp" href="#top">🔝</a>
+            <h2 id="">Onreset</h2>
+            <p>El evento onreset se produce cuando se restablece un formulario.</p>
+    
+            <p>Al restablecer el formulario, se activa una función que alerta a algunos textos.</p>
+    
+            <form onreset="onReset()">
+                Por favor introduzca un nombre o cualquier texto: <input type="text"><input type="reset">
+            </form>
+          </div>
+        </main>
+ 
+    <!--OnResize-->
+        
+<main class="container ">
+    <h2 id="OnResize"> </h2>
+    <div class="bg-light color  p-5 rounded mt-3">
+        <a class="topp" href="#top">🔝</a>
+       
+        <H2 id="">OnResize</H2>
+        <p>El evento onresize se produce cuando se ha cambiado el tamaño de la ventana del explorador.</p>
+
+        <p>Intente cambiar el tamaño de la ventana del navegador para mostrar
+            el alto y ancho de las ventanas.
+        </p>
+        <br>
+        <p id="tamaño"></p>
+
+        <body onresize="EjemploSize()">
+            <p><strong>NOTA:</strong>este ejemplo no funcionara adecuadamente
+                en IE8 y versiones anteriores. IE8 y verisiones antiguas no admiten,
+                las propiedades outerWidth / outerHeight del objeto window.</p>
+
+
+    </div>
+  </main>
+    
+
+    <br>
+    <!--OnSelect-->
+        
+<main class="container ">
+    <h2 id="OnSubmit"> </h2>
+    <div class="bg-light color  p-5 rounded mt-3">
+        <a class="topp" href="#top">🔝</a>
+       
+        <h2 id="">OnSubmit</h2>
+        <p>El evento onsubmit se produce cuando se envía un formulario.</p>
+        <br>
+        <p>Cuando envía el formulario, se activa una función que alerta a algunos textos.</p>
+
+        <form onsubmit="formsubmit()">
+            Introduzca Un Nombre: <input type="text" name="RegName">
+            <input type="submit" value="submit" id="reg">
+        </form>
+
+    </div>
+  </main>
+   
+<main class="container ">
+    <h2 id="OnSelect"> </h2>
+    <div class="bg-light color  p-5 rounded mt-3">
+        <a class="topp" href="#top">🔝</a>
+       
+        <h2 id="">OnSelect</h2>
+  <p>El evento onselect se produce después de seleccionar texto en un elemento.
+      El evento onselect se utiliza principalmente en (input type="text") o (textarea) elementos.
+  </p>
+  Selecciona algo dentro del texto: <input type="text" value="Seleccioname Porfavor" id="selection"
+      onselect="selectme()" ;>
+
+    </div>
+  </main>
+  
+
+
+    <!--OnSubmit-->
+    
+<main class="container ">
+    <h2 id="OnSubmit"> </h2>
+    <div class="bg-light color  p-5 rounded mt-3">
+        <a class="topp" href="#top">🔝</a>
+       
+        <h2 id="">OnSubmit</h2>
+        <p>El evento onsubmit se produce cuando se envía un formulario.</p>
+        <br>
+        <p>Cuando envía el formulario, se activa una función que alerta a algunos textos.</p>
+
+        <form onsubmit="formsubmit()">
+            Introduzca Un Nombre: <input type="text" name="RegName">
+            <input type="submit" value="submit" id="reg">
+        </form>
+
+    </div>
+  </main>
+    
+       
+    
+
+    <!--OnUnload-->
+    
+<main class="container ">
+    <h2 id="OnUnload"> </h2>
+    <div class="bg-light color  p-5 rounded mt-3">
+        <a class="topp" href="#top">🔝</a>
+       
+        <h2>OnUnload</h2>
+        <p>El evento onunload se produce una vez que una página se ha descargado (o se ha cerrado la ventana del
+            navegador).
+            la carga se produce cuando el usuario navega fuera de la página (haciendo clic en un enlace,
+            enviando un formulario, cerrando la ventana del navegador, etc.).</p>
+
+        <body onunload="onloadevent()">
+            <p>Cierre esta ventana o presione f5 para recargar la pagina</p>
+            <p><strong>Nota:</strong>debido a las configuraciones de los navegadores
+
+    </div>
+  </main>
+            
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>     es posible que este evento no se ejecute a su perfeccion como se espera</p>
+                <script src="https://kit.fontawesome.com/76fa531529.js" crossorigin="anonymous"></script>
+
+  
+
+
+
+
+
+
+    <script>
+
+        //onunload
+
+        function onloadevent() {
+            alert("Gracias Por Visitar Nuestra Pagina Hasta Pronto");
+        }
+
+
+        //onsubmit
+
+        document.getElementById('reg').onsubmit = function () {
+            formsubmit();
+        }
+        function formsubmit() {
+            alert("El Formulario Ha sido Recibido Con Exito");
+        }
+
+        //onselect
+
+        document.getElementById("selection").onselect = function () {
+            selectme();
+        }
+
+        function selectme() {
+            alert("Has Seleccionado algo del texto");
+        }
+
+        //onresize
+
+        document.getElementById('tamaño').onresize = function () {
+            EjemploSize();
+        }
+
+        function EjemploSize() {
+            let we = window.outerWidth;
+            let he = window.outerHeight;
+            let txt = "El Tamaño de la ventana: ancho= " + we + ", alto=" + he;
+            document.getElementById('tamaño').innerHTML = txt;
+        }
+
+
+        //onreset
+
+        function onReset() {
+            alert("el formulario se ha restablecido correctamente");
+        }
+
+        // onmousemove - onemouseout - onemouseover
+        let c = 0;
+        let y = 0;
+        let a = 0;
+
+        function myMoveFunction() {
+            document.getElementById('demo').innerHTML = a += 1;
+        }
+
+        function myEnterFunction() {
+            document.getElementById("demo2").innerHTML = c += 1;
+        }
+
+        function myOverFunction() {
+            document.getElementById("demo3").innerHTML = y += 1;
+        }
+        //onmousedown and onmouseup
+
+        document.getElementById("down-up").onmousedown = function () {
+            mousedown();
+        }
+
+        function mousedown() {
+            document.getElementById('down-up').style.color = "gray";
+        }
+
+        document.getElementById('down-up').onmouseup = function () {
+            mouseup();
+        }
+
+        function mouseup() {
+            document.getElementById('down-up').style.color = "green";
+        }
+
+        //onload
+        document.getElementById('ckikyn').onload = function () {
+            alerta()
+        }
+        function alerta() {
+            alert("cargando imagen")
+        }
+
+        //onkeyup
+        let x = document.getElementById('Up').onkeyup = function () {
+            keup();
+        }
+
+        function keup() {
+            x = document.getElementById('Up');
+            x.value = x.value.toUpperCase();
+
+        }
+
+        //onekeypress
+
+        document.getElementById('t').onkeypress = function () {
+            tecladoenter();
+        }
+
+        function tecladoenter() {
+            alert("Usted Acaba de presionar una tecla dentro de la caja de texto ");
+        }
+
+
+        //onkeydown
+        document.getElementById('teclado').onkeydown = function () {
+            tecladopres();
+        }
+
+        function tecladopres() {
+            document.getElementById('teclado').style.backgroundColor = "rgba(39, 92, 102, 0.471)";
+        }
+
+        //ondblclick
+
+        document.getElementById('boton').ondblclick = function () {
+            dobleclick();
+        }
+
+        function dobleclick() {
+            document.getElementById('boton').style.backgroundColor = "rgb(12, 63, 234)";
+        }
+
+        //onclick
+
+        document.getElementById('demo').onclick = function () {
+            czmbiaColor()
+
+        }
+
+        function czmbiaColor() {
+            document.getElementById("demo").style.color = "rgba(6, 10, 231, 0.668)";
+        }
+        //onchange
+
+        document.getElementById('Seleccion').onchange = function () {
+            myFunction()
+        }
+        function myFunction() {
+            var e = document.getElementById("Seleccion").value;
+            document.getElementById("example").innerHTML = "Usted acaba de Seleccionar: " + e;
+        }    
+    </script>
+
+
+    <script>
+
+        function limpiar(nombre) {
+
+            nombre.value = '';
+            m
+        }
+
+        document.getElementById('input').onfocus = function () {
+            limpiar(this)
+
+
+        }
+        document.getElementById('input').onblur = function () {
+            alert("porfavor digite un nombre");
+        }
+    </script>
+    
+    </body>
+
+</html>

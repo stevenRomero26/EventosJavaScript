@@ -1,0 +1,99 @@
+
+*{
+    margin: 0px;
+    padding: 0%;
+}
+body{
+    margin: 0px;
+    padding: 0%;
+    background-image: url('https://res.cloudinary.com/practicaldev/image/fetch/s--QDbkZSYI--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://thepracticaldev.s3.amazonaws.com/i/76cxxaxerwl364edwc4n.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cla{
+    
+   position: relative;
+   left: 26%;
+}
+nav{
+   display: flex;
+   justify-content: center;
+   border-top: #9e9d9d 2px solid;
+   margin-top: 0px;
+   padding: 0%;
+   background-color: #000000 !important;
+   
+}
+.color{
+    background-color: #000000 !important;
+}
+nav ul {
+    list-style: none;
+}
+.txt{
+   
+    position: relative;
+    top: -19px;
+    margin-top: 0%;
+    display: flex;
+    color: rgb(7, 7, 7);
+    background-color: #ffffff;
+    justify-content: center;    
+    border-bottom: #5c59598f 2px solid;
+    
+    
+}
+.color .topp{
+    position: relative;
+    left: 50%;
+}
+.li1{
+    position: relative;
+    right: 260px;
+}
+.img{
+    
+
+    margin-right: 20px;
+    width: 39px;
+    height: 40px;
+    margin-bottom:10px ;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(249, 249, 250) !important;
+    margin: 20px;
+    padding: 20px;
+    font-size: 30px;
+}
+nav ul li {
+    display: inline-block;
+}
+.container-flui a{
+    padding: 60px;
+  
+ color: rgb(255, 255, 255);
+}
+.list-group-item:focus  {
+    background-color: rgb(67, 66, 145) !important;
+  }
+  .color{
+      background-color: rgb(5, 5, 5) !important;
+  }
+  .container{
+
+    border: medium rgba(8, 8, 8, 0.219) solid;
+      
+  }
+  html{
+      scroll-behavior: smooth;
+  }
+  .topp{
+       
+    width: 200px;
+  }
+  .color img {
+      width: 200px;
+      height: 200px;
+  }
